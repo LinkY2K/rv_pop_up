@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: -10px;
+    /* Add margin as needed */
+}
+
+/* Styles for the <picture> element */
+picture {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Styles for the responsive image inside the <picture> element */
+img {
+    max-width: 100%;
+    height: auto;
+    width: 110%;
+    display: block;
+    margin: -28px;
+}
+
+/* Media queries for different screen sizes */
+@media only screen and (max-width: 600px) {
+    img {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    img {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    img {
+        width: 100%;
+        margin: 0;
+    }}
+
+@media only screen and (max-width: 900px) {
+    /* Add styles specific to max-width: 900px if needed */
+}
+
+@media only screen and (max-width: 1024px) {
+    /* Add styles specific to max-width: 1024px if needed */
+}
+
+@media only screen and (max-width: 1200px) {
+    /* Add styles specific to max-width: 1200px if needed */
+}
